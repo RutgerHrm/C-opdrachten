@@ -7,7 +7,6 @@ int main(void)
 }
 
 -------------------------------------------------------------
-	
 #include <stdio.h>
 
 void print_function( char letter );
