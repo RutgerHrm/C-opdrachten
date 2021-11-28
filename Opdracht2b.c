@@ -25,6 +25,5 @@ int main()
   
 void dia(float d, float *r, float *o)  
 {  
-    *r = d / 2; 
-    *o = 2 * 3.14 * *r;  
+    *o = 3.14 * d; 
 }  
