@@ -23,7 +23,7 @@ int main()
     return 0;  
 }  
   
-void dia(float d, float *r, float *o)  
+void dia(float d, float *o)  
 {  
     *o = 3.14 * d; 
 }  
