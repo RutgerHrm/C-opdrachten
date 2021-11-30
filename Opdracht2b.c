@@ -7,11 +7,11 @@
   
 #include<stdio.h>  
   
-void dia(float, float*, float*);  
+void dia(float, float*);  
   
 int main()  
 {  
-    float diameter, radius, omtrek;  
+    float diameter, omtrek;  
   
     printf("Vul de diameter van een cirkel hieronder in (cm):\n");  
     scanf("%f", &diameter);  
