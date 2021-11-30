@@ -16,7 +16,7 @@ int main()
     printf("Vul de diameter van een cirkel hieronder in (cm):\n");  
     scanf("%f", &diameter);  
   
-    dia(diameter, &radius, &omtrek);  
+    dia(diameter, &omtrek);  
   
     printf("\nOmtrek van de cirkel in centimeter = %0.2f\n", omtrek);  
   
