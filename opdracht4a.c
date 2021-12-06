@@ -31,7 +31,7 @@ char abc(FILE *doc)
     i = fopen("tekst2.txt", "w");
     while ((x = fgetc(doc)) != EOF)
 {
-    /* Telt karakters */
+    /* Telt karakters, schuift waardes 1 plek op*/
     teller++;
     x = x + 1;
     fputc(x, i);
